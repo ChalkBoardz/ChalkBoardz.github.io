@@ -1,1 +1,3 @@
-{{site.data.specials}}
+{% for special in site.data.specials %}
+{{special.Specials}}, {{special.Descriptions}}, {{special.Price}}<br>
+{% endfor %}
