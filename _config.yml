@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 name: Project Chalkboardz
+baseurl: index
 exclude : ['README.md']
