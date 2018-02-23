@@ -4,6 +4,8 @@
 <body>
 <h1>Specials</h1>
   
+{{ site.data.specials }}
+  
 {% for special in site.data.specials %}
   {{special.Specials}}, {{special.Descriptions}}, {{special.Price}}<br>
 {% endfor %}
