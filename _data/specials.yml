@@ -1,7 +1,7 @@
-- Special: "Special1"
-  Description: "Description1"
+- Specials: "Special1"
+  Descriptions: "Description1"
   Price: "$1"
 
-- Special: "Special2"
-  Description: "Description2"
+- Specials: "Special2"
+  Descriptions: "Description2"
   Price: "$2"
