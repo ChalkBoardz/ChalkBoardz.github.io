@@ -1,23 +1,15 @@
-
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Specials</h1>
+#Specials
   
 {{ site.data.specials }}
   
-<br>
   
 {% for special in site.data.specials %}
   {{special.Specials}}, {{special.Descriptions}}, {{special.Price}}<br>
 {% endfor %}
   
- <br>
   
 {% for i in (1..10) %}
   {{ i }}
 {% endfor %}
   
-</body>
-</html>
 
