@@ -7,7 +7,7 @@
 
   <h1>Specials</h1>
   
-  {{ page.date | date: "%A"}}
+  {{ site.date | date: "%A"}}
   
   {% for special in site.data.specials %}
     {{special.Specials}}, {{special.Descriptions}}, {{special.Price}}<br>
