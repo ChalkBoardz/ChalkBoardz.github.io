@@ -28,7 +28,7 @@
   Descriptions: "Friday Description 1"
   Price: "$6"
   
-  - Specials: "Friday Special 2"
+- Specials: "Friday Special 2"
   Day: "Friday"
   Descriptions: "Friday Description 2"
   Price: "$6.50"
