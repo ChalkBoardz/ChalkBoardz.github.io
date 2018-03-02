@@ -5,9 +5,8 @@
 <html>
 <body>
 
-  <h1>Specials</h1>
+  <h1>Daily Specials</h1>
   
-  {{ site.time | date: '%A' }}<br>
   {% assign curDate = site.time | date: '%A' %} 
   
   {% for special in site.data.specials %}
