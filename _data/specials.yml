@@ -23,10 +23,15 @@
   Descriptions: "Thursday Description"
   Price: "$5"
 
-- Specials: "Friday Special"
+- Specials: "Friday Special 1"
   Day: "Friday"
-  Descriptions: "Friday Description"
+  Descriptions: "Friday Description 1"
   Price: "$6"
+  
+  - Specials: "Friday Special 2"
+  Day: "Friday"
+  Descriptions: "Friday Description 2"
+  Price: "$6.50"
   
 - Specials: "Saturday Special"
   Day: "Saturday"
