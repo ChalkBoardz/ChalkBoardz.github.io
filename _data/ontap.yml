@@ -1,0 +1,9 @@
+- Name: "Beer 1"
+  Description: "Description 1"
+  ABV: "1%"
+  Price: "$1"
+  
+- Name: "Beer 2"
+  Description: "Description 2"
+  ABV: "2%"
+  Price: "$2"
