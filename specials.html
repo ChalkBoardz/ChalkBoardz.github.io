@@ -7,10 +7,13 @@
 
   <h1>Specials</h1>
   
-  {{ site.time | date: '%A' }}
+  {{ site.time | date: '%A' }}<br>
+  {% assign curDate = site.time | date: '%A' %} 
   
   {% for special in site.data.specials %}
+    {% if curDate  == special.Day %}
     {{special.Specials}}, {{special.Descriptions}}, {{special.Price}}<br>
+    {{% endif %}}
   {% endfor %}
   
   
