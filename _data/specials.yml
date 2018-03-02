@@ -18,7 +18,7 @@
   Descriptions: "Wednesday Description"
   Price: "$4"
   
-  - Day: "Thursday"
+- Day: "Thursday"
   Specials: "Thursday Special"
   Descriptions: "Thursday Description"
   Price: "$5"
@@ -28,7 +28,7 @@
   Descriptions: "Friday Description"
   Price: "$6"
   
-  - Day: "Saturday"
+- Day: "Saturday"
   Specials: "Saturday Special"
   Descriptions: "Saturday Description"
   Price: "$7"
