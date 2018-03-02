@@ -1,7 +1,34 @@
-- Specials: "Special1"
-  Descriptions: "Description1"
+- Day: "Sunday"
+  Specials: "Sunday Special"
+  Descriptions: "Sunday Description"
   Price: "$1"
 
-- Specials: "Special2"
-  Descriptions: "Description2"
+- Day: "Monday"
+  Specials: "Monday Special"
+  Descriptions: "Monday Description"
   Price: "$2"
+
+- Day: "Tuesday"
+  Specials: "Tuesday Special"
+  Descriptions: "Tuesday Description"
+  Price: "$3"
+
+- Day: "Wednesday"
+  Specials: "Wednesday Special"
+  Descriptions: "Wednesday Description"
+  Price: "$4"
+  
+  - Day: "Thursday"
+  Specials: "Thursday Special"
+  Descriptions: "Thursday Description"
+  Price: "$5"
+
+- Day: "Friday"
+  Specials: "Friday Special"
+  Descriptions: "Friday Description"
+  Price: "$6"
+  
+  - Day: "Saturday"
+  Specials: "Saturday Special"
+  Descriptions: "Saturday Description"
+  Price: "$7"
