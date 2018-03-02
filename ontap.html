@@ -1,0 +1,16 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Specials</h1>
+  
+{% for beer in site.data.ontap %}
+  {{beer.Name}}, {{beer.Description}},{{beer.ABV}}, {{beer.Price}}<br>
+{% endfor %}
+  
+  
+  
+</body>
+</html>
