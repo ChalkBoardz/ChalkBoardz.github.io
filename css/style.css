@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-h1{
+.h1{
   color: #333333;
   font-size: 72pt;
 }
