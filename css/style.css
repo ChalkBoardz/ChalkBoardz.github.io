@@ -4,6 +4,6 @@
 @import "{{ site.theme }}";
 
 h1{
-  color: #333;
-  font-size: 72;
+  color: #333333;
+  font-size: 72pt;
 }
