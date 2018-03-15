@@ -10,19 +10,21 @@ import headerFont from '/DJBMonkeyScratches.ttf';
   font-weight: normal;
   font-style: normal;
 }
+h1{
+  color: #ced8e8;
+  font-size: 72pt;
+/*  vertical-align: middle;*/
+}
+/* https://i.pinimg.com/originals/eb/81/6b/eb816b8c0ac29fd4200677915af5d6c1.jpg */
+/*http://www.alibipub.com/wp-content/uploads/2015/02/Alibi-Home1.jpg*/
+/* https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg*/
 body{
-  background-image:url("http://www.alibipub.com/wp-content/uploads/2015/02/Alibi-Home1.jpg");/* no-repeat center center fixed; */
+  background-image:url("https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg");/* center center cover no-repeat fixed; */
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color #ced8e8;
-}
-
-h1{
-  color: #ced8e8;
-  font-size: 72pt;
-/*  vertical-align: middle;*/
 }
 /*
 h1{
