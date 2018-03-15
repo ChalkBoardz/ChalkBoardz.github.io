@@ -14,17 +14,11 @@ h1{
   font-family: DJBMonkeyScratches;
   font-weight: 100;
   font-size: 24px;
+  vertical-align: middle;
 }
-.title-row header .navbar-inner .about:hover {
-    color: #96daf8;
-  }
-  .title-row header .navbar-inner .hamburger {
-    display: none;
-}
-
 body {
 	background-color: #fff;
-	color: #000;
+	color: #FF1234;
 	font-family: 'Muli', sans-serif;
 	font-size: 48px;
 	font-size: 1.8rem;
