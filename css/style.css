@@ -2,11 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
-
+import headerFont from '../../Fonts/Header/DJBMonkeyScratches.ttf';
+?
 h1{
   @font-face {
     font-family: DJBMonkeyScratches;
-    src: url("../Fonts/Header/DJBMonkeyScratches.ttf") format('truetype');
+    src: url(${headerFont}) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
