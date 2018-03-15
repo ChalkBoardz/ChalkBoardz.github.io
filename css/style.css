@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-import headerFont from '  /Header/DJBMonkeyScratches.ttf';
+import headerFont from '/Header/DJBMonkeyScratches.ttf';
 ?
 @font-face {
   font-family: DJBMonkeyScratches;
@@ -20,4 +20,15 @@ h1{
   }
   .title-row header .navbar-inner .hamburger {
     display: none;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 1.875;
+	margin: 0;
 }
