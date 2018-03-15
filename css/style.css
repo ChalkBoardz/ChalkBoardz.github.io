@@ -4,11 +4,20 @@
 @import "{{ site.theme }}";
 import headerFont from '  /Header/DJBMonkeyScratches.ttf';
 ?
+@font-face {
+  font-family: DJBMonkeyScratches;
+  src: url(${headerFont}) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 h1{
-  @font-face {
-    font-family: DJBMonkeyScratches;
-    src: url(${headerFont}) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: DJBMonkeyScratches;
+  font-weight: 100;
+  font-size: 24px;
+}
+.title-row header .navbar-inner .about:hover {
+    color: #96daf8;
   }
+  .title-row header .navbar-inner .hamburger {
+    display: none;
 }
