@@ -7,3 +7,11 @@ h1{
   color: #FF0000;
   font-size: 72pt;
 }
+h2{
+  @font-face {
+    font-family: F16;
+    src: url("../../Fonts/Header/DJBMonkeyScratches.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
