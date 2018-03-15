@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-import headerFont from '../../Fonts/Header/DJBMonkeyScratches.ttf';
+import headerFont from '../Fonts/Header/DJBMonkeyScratches.ttf';
 ?
 h1{
   @font-face {
