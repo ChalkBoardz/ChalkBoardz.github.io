@@ -11,7 +11,7 @@ import headerFont from '/DJBMonkeyScratches.ttf';
   font-style: normal;
 }
 h1{
-  color: #ced8e8;
+  color: #ced8e8; /* greyish */
   font-size: 72pt;
 /*  vertical-align: middle;*/
 }
@@ -33,10 +33,8 @@ h1{
   font-size: 24px;
   vertical-align: middle;
 }*/
-/*
 body {
-	background-color: #fff;
-	color: #ced8e8;
+	color: #f4e842; /* yellowish */
 	font-family: 'Muli', sans-serif;
 	font-size: 48px;
 	font-size: 1.8rem;
@@ -44,4 +42,3 @@ body {
 	line-height: 1.875;
 	margin: 0;
 }
-*/
