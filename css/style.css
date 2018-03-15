@@ -17,11 +17,13 @@ h1{
 }
 /* https://i.pinimg.com/originals/eb/81/6b/eb816b8c0ac29fd4200677915af5d6c1.jpg */  		/* alibi sign */
 /*http://www.alibipub.com/wp-content/uploads/2015/02/Alibi-Home1.jpg*/ 				/* backyard */
-/* https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg*/ 		/* puppy */
-/*https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg*/	/* chalkboard */
-/* https://i.pinimg.com/originals/84/ae/6f/84ae6fe2fa6912e10f95814e62278adb.jpg */		/* chalkboard2 */
+/*  background-image:url("https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg")no-repeat center center fixed; 
+	*/		/* puppy */
+/* https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg*/	/* chalkboard */
+/*  background-image:url("https://i.pinimg.com/originals/84/ae/6f/84ae6fe2fa6912e10f95814e62278adb.jpg")no-repeat center center fixed; 
+	*/		/* chalkboard2 */
 body{
-  background-image:url("https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg")no-repeat center center fixed; 
+  background-image:url("https://i.pinimg.com/originals/84/ae/6f/84ae6fe2fa6912e10f95814e62278adb.jpg")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
