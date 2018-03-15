@@ -5,7 +5,7 @@
 
 h1{
   @font-face {
-    font-family: F16;
+    font-family: DJBMonkeyScratches;
     src: url("../Fonts/Header/DJBMonkeyScratches.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
