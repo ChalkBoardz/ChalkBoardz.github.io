@@ -21,7 +21,7 @@ html {
 h1{
   color: #ced8e8;
   font-size: 72pt;
-  vertical-align: middle;
+/*  vertical-align: middle;*/
 }
 /*
 h1{
@@ -30,6 +30,7 @@ h1{
   font-size: 24px;
   vertical-align: middle;
 }*/
+/*
 body {
 	background-color: #fff;
 	color: #ced8e8;
@@ -40,3 +41,4 @@ body {
 	line-height: 1.875;
 	margin: 0;
 }
+*/
