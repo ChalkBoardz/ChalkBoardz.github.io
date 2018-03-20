@@ -15,7 +15,7 @@
   font-family:'SqueakyChalkSound';
   src: url('/fonts/squeakychalksound-webfont.eot'),
   url('/fonts/squeakychalksound-webfont.woff') format('woff'),
-  url('/fonts/squeakychalksound-webfont.woff') format('woff'),
+  url('/fonts/squeakychalksound-webfont.woff2') format('woff2'),
   url('/fonts/squeakychalksound-webfont.svg') format('svg'),
   url('/fonts/squeakychalksound-webfont.ttf') format('truetype');
   font-weight: normal;
@@ -23,14 +23,14 @@
 }
 
 h1{
-  font-family: 'SqueakyChalkSound';
+  font-family: 'EraserRegular';
   color: #ced8e8; /* greyish */
   font-size: 72pt;
 }
 
 h2{
-  font-family: 'EraserRegular';
-  color: red; /* greyish */
+  font-family: 'SqueakyChalkSound';
+  color: #DC143C; /* crimson */
   font-size: 50pt;
 }
 
