@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 @font-face {
-  font-family: 'DJBMonkeyScratches';
+  font-family: "DJBMonkeyScratches";
   src: url("./fonts/DJBMonkeyScratches.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -13,7 +13,7 @@
 h1{
   color: #ced8e8; /* greyish */
   font-size: 72pt;
-  font-familty: 'DJBMonkeyScratches';
+  font-familty: "DJBMonkeyScratches";
 
 body {
 	font-family: 'Muli', sans-serif;
