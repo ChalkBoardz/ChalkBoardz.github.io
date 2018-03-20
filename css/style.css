@@ -19,7 +19,8 @@ h1{
   
 
 body {
-	font-family: 'Muli', sans-serif;
+	font-family: 'EraserRegular';
+	/*font-family: 'Muli', sans-serif;*/
 	font-size: 48px;
 	font-size: 1.8rem;
 	font-weight: 300;
