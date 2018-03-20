@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-import headerFont from '/DJBMonkeyScratches.ttf';
 
 @font-face {
   font-family: DJBMonkeyScratches;
