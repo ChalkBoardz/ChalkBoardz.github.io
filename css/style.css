@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'EraserRegular';
-  src: url('/fonts/EraserRegular-webfont.eot') format('embedded-onpentype'),
+  src: url('/fonts/EraserRegular-webfont.eot'),
   url('/fonts/EraserRegular-webfont.woff') format('woff'),
   url('/fonts/EraserRegular-webfont.svg') format('svg'),
   url('/fonts/EraserRegular-webfont.svg') format('truetype');
@@ -19,8 +19,6 @@ h1{
   
 
 body {
-	font-family: 'EraserRegular';
-	/*font-family: 'Muli', sans-serif;*/
 	font-size: 48px;
 	font-size: 1.8rem;
 	font-weight: 300;
