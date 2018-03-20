@@ -6,9 +6,9 @@
 @font-face {
   font-family: "Eraser";
   src: url("/fonts/EraserRegular-webfont.eot") format("embedded-onpentype"),
-  src: url("/fonts/EraserRegular-webfont.woff") format("woff"),
-  src: url("/fonts/EraserRegular-webfont.svg") format("svg"),
-  src: url("/fonts/EraserRegular-webfont.svg") format("truetype");
+  url("/fonts/EraserRegular-webfont.woff") format("woff"),
+  url("/fonts/EraserRegular-webfont.svg") format("svg"),
+  url("/fonts/EraserRegular-webfont.svg") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
