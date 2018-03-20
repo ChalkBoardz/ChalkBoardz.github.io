@@ -5,10 +5,10 @@
 
 @font-face {
   font-family: "Eraser";
-  src: url("EraserRegular-webfont.eot") format("embedded-onpentype"),
-  src: url("EraserRegular-webfont.woff") format("woff"),
-  src: url("EraserRegular-webfont.svg") format("svg"),
-  src: url("EraserRegular-webfont.svg") format("truetype");
+  src: url("/fonts/EraserRegular-webfont.eot") format("embedded-onpentype"),
+  src: url("/fonts/EraserRegular-webfont.woff") format("woff"),
+  src: url("/fonts/EraserRegular-webfont.svg") format("svg"),
+  src: url("/fonts/EraserRegular-webfont.svg") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
