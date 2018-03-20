@@ -12,9 +12,11 @@
 }
 
 h1{
+  font-family: 'EraserRegular';
   color: #ced8e8; /* greyish */
   font-size: 72pt;
-  font-family: 'EraserRegular';
+}
+  
 
 body {
 	font-family: 'Muli', sans-serif;
