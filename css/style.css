@@ -5,10 +5,11 @@
 
 @font-face {
   font-family: DJBMonkeyScratches;
-  src: url(".../fonts/fonts/DJBMonkeyScratches.ttf");
+  src: url("/fonts/fonts/DJBMonkeyScratches.ttf");
   font-weight: normal;
   font-style: normal;
 }
+
 h1{
   color: #ced8e8; /* greyish */
   font-size: 72pt;
