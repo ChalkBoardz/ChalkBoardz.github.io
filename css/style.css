@@ -11,22 +11,22 @@
   font-style: normal;
 }
 
-h1{
+.h1{
   font-family: 'EraserRegular';
   color: #ced8e8; /* greyish */
   font-size: 72pt;
 }
 
-p{
+.p{
   font-family: "arial":
   font-size: 12pt;
 }
   
 
-body {
-	/*font-size: 48px;
+/*body {
+	font-size: 48px;
 	font-size: 1.8rem;
 	font-weight: 300;
 	line-height: 1.875;
-	margin: 0;*/
-}
+	margin: 0;
+}*/
