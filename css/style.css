@@ -11,10 +11,23 @@
   font-style: normal;
 }
 
+@font-face{
+  font-family:'SqueakyChalkSound';
+  src: url("/fonts/SqueakyChalkSound.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1{
-  font-family: 'EraserRegular';
+  font-family: 'SqueakyChalkSound';
   color: #ced8e8; /* greyish */
   font-size: 72pt;
+}
+
+h2{
+  font-family: 'EraserRegular';
+  color: red; /* greyish */
+  font-size: 50pt;
 }
 
 p{
