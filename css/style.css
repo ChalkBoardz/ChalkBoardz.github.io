@@ -4,8 +4,11 @@
 @import "{{ site.theme }}";
 
 @font-face {
-  font-family: "DJBMonkeyScratches";
-  src: url("../fonts/DJBMonkeyScratches.ttf") format("truetype");
+  font-family: "Eraser";
+  src: url("EraserRegular-webfont.eot") format("embedded-onpentype"),
+  src: url("EraserRegular-webfont.woff") format("woff"),
+  src: url("EraserRegular-webfont.svg") format("svg"),
+  src: url("EraserRegular-webfont.svg") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +16,7 @@
 h1{
   color: #ced8e8; /* greyish */
   font-size: 72pt;
-  font-familty: "DJBMonkeyScratches";
+  font-familty: "Eraser";
 
 body {
 	font-family: 'Muli', sans-serif;
