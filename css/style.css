@@ -6,13 +6,14 @@ import headerFont from '/DJBMonkeyScratches.ttf';
 
 @font-face {
   font-family: DJBMonkeyScratches;
-  src: url(${headerFont}) format('truetype');
+  src: url(".../fonts/fonts/DJBMonkeyScratches.ttf");
   font-weight: normal;
   font-style: normal;
 }
 h1{
   color: #ced8e8; /* greyish */
   font-size: 72pt;
+  font-familty: DJBMonkeyScratches;
 /*  vertical-align: middle;*/
 }
 /* https://i.pinimg.com/originals/eb/81/6b/eb816b8c0ac29fd4200677915af5d6c1.jpg */  		/* alibi sign */
