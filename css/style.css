@@ -1,14 +1,12 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 @font-face {
-  font-family: "Eraser";
-  src: url("/fonts/EraserRegular-webfont.eot") format("embedded-onpentype"),
-  url("/fonts/EraserRegular-webfont.woff") format("woff"),
-  url("/fonts/EraserRegular-webfont.svg") format("svg"),
-  url("/fonts/EraserRegular-webfont.svg") format("truetype");
+  font-family: 'EraserRegular';
+  src: url('/fonts/EraserRegular-webfont.eot') format('embedded-onpentype'),
+  url('/fonts/EraserRegular-webfont.woff') format('woff'),
+  url('/fonts/EraserRegular-webfont.svg') format('svg'),
+  url('/fonts/EraserRegular-webfont.svg') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +14,7 @@
 h1{
   color: #ced8e8; /* greyish */
   font-size: 72pt;
-  font-familty: "Eraser";
+  font-familty: 'EraserRegular';
 
 body {
 	font-family: 'Muli', sans-serif;
