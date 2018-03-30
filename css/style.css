@@ -28,14 +28,14 @@ h1{
 }
 
 h2{
-  font-family: 'SqueakyChalkSound';
-  color: #DC143C; /* crimson */
+  font-family: 'EraserRegular';
+  color: #ced8e8; /* greyish */
   font-size: 30pt;
 }
 
 h3{
-  font-family: 'EraserRegular';
-  color: #ced8e8; /* greyish */
+  font-family: 'SqueakyChalkSound';
+  color: #DC143C; /* crimson */
   font-size: 30pt;
 }
 
