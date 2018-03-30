@@ -23,14 +23,19 @@
 }
 
 h1{
-  font-family: 'EraserRegular';
-  color: #ced8e8; /* greyish */
+  color: #42cbf4;
   font-size: 72pt;
 }
 
 h2{
   font-family: 'SqueakyChalkSound';
   color: #DC143C; /* crimson */
+  font-size: 50pt;
+}
+
+h3{
+  font-family: 'EraserRegular';
+  color: #ced8e8; /* greyish */
   font-size: 50pt;
 }
 
