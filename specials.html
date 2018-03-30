@@ -10,12 +10,17 @@
   <h1>Daily Specials</h1>
   
   {% assign curDate = site.time | date: '%A' %} 
-  
+  <table style="width:100%">
   {% for special in site.data.specials %}
+    <tr>
     {% if curDate  == special.Day %}
-    <h2>{{special.Specials}}</h2>, <h3>{{special.Descriptions}}, {{special.Price}}<h3><br>
+    <td><h2>{{special.Specials}}</h2></td>
+    <td><h3>{{special.Descriptions}}</td>
+    <td>{{special.Price}}<h3></td>
     {% endif %}
+    </tr>
   {% endfor %}
+  </table>
   
   
   
