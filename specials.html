@@ -7,9 +7,11 @@
 <body>
  <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
   
-  <h1>Daily Specials</h1>
-  
   {% assign curDate = site.time | date: '%A' %} 
+   
+  <h1>Daily Specials: {{curDate}}</h1>
+  
+  
   <table style="width:100%">
   {% for special in site.data.specials %}
     <tr>
