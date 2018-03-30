@@ -58,7 +58,8 @@ function MenuInit()
 function MenuShow()
 {
     clearTimeout(menu_timer);
-    opacity('menu', 0, 90, 500);
+    /*opacity('menu', 0, 90, 500);*/
+    opacity('menu', 90, 0, 500);
     menu_timer = setTimeout("MenuHide()", 3500);
 }
 function MenuHide()
