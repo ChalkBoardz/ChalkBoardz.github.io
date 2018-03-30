@@ -13,7 +13,7 @@
   
   {% for special in site.data.specials %}
     {% if curDate  == special.Day %}
-    {{special.Specials}}, {{special.Descriptions}}, {{special.Price}}<br>
+    <h2>{{special.Specials}}</h2>, <h3>{{special.Descriptions}}, {{special.Price}}<h3><br>
     {% endif %}
   {% endfor %}
   
