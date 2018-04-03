@@ -1,39 +1,51 @@
-- Specials: "Sunday Special"
+- Specials: "Happy Hour: Monday - Thursday. $1 off Mojitos, Margaritas, Long Islands and THE Dirty Palmer" 
+- Specials: "Sunday Brunch"
   Day: "Sunday"
-  Descriptions: "Sunday Description"
-  Price: "$1"
+  Descriptions: "Brunch with your Pup.
+  Dogs are Welcome every Sunday in the backyard.
+  All ages are welcome."
+  Price: "Varies"
 
 - Specials: "Monday Special"
   Day: "Monday"
-  Descriptions: "Monday Description"
-  Price: "$2"
+  Descriptions: "Margherita Pizza + Side Salad."
+  Price: "$8"
 
-- Specials: "Tuesday Special"
+- Specials: "Taco Tuesday"
   Day: "Tuesday"
-  Descriptions: "Tuesday Description"
-  Price: "$3"
+  Descriptions: "Wood Fire Mahi Mahi Fish Tacos + Pint"
+  Price: "$15"
 
-- Specials: "Wednesday Special"
+- Specials: "Wine Wednesday"
   Day: "Wednesday"
-  Descriptions: "Wednesday Description"
+  Descriptions: "Select Wines"
   Price: "$4"
   
 - Specials: "Thursday Special"
   Day: "Thursday"
-  Descriptions: "Thursday Description"
-  Price: "$5"
+  Descriptions: "Happy Hour:  M-Thurs $1 off of Mojitos, Margaritas, Long Islands and THE Dirty Palmer
+Monday - Margherita Pizza + Side Salad $8
+Taco Tuesday - Wood Fire Mahi Mahi Fish Tacos + Pint $15
+Wine Wed - Select Wines $5
+Brunch Sat - Sunday
+Bake Wed - Sunday
+Dogs Welcome every Sunday in the backyard
+"
+  Price: "Varies"
 
 - Specials: "Friday Special 1"
   Day: "Friday"
-  Descriptions: "Friday Description 1"
-  Price: "$6"
-  
-- Specials: "Friday Special 2"
-  Day: "Friday"
-  Descriptions: "Friday Description 2"
-  Price: "$6.50"
+  Descriptions: "Happy Hour:  M-Thurs $1 off of Mojitos, Margaritas, Long Islands and THE Dirty Palmer
+Monday - Margherita Pizza + Side Salad $8
+Taco Tuesday - Wood Fire Mahi Mahi Fish Tacos + Pint $15
+Wine Wed - Select Wines $5
+Brunch Sat - Sunday
+Bake Wed - Sunday
+Dogs Welcome every Sunday in the backyard
+"
+  Price: "Varies"
   
 - Specials: "Saturday Special"
   Day: "Saturday"
-  Descriptions: "Saturday Description"
-  Price: "$7"
+  Descriptions: "Brunch"
+  Price: "Varies"
