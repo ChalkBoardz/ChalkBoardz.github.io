@@ -6,10 +6,17 @@
 <body>
    <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
   <h1>Event 1</h1>
-  
-  {% assign image_files = site.static_files | where: "image", true %}
-  {{ /assets/img/generic.jpg }}
-
-  
+  <table style="width:100%">    
+  {% for event in site.data.events %}
+     <tr>
+    <td><h3>{{event.Date}}</h3></td>
+    <td><h3>{{event.Time}}</h3></td>
+    <td><h3>{{event.Event}}</h3></td>
+    <td><h3>{{event.Description}}</h3></td>
+    <td><h3>{{event.Cover}}</h3></td>
+     </tr>
+      
+  {% endfor %}
+</table>
 </body>
 </html>
