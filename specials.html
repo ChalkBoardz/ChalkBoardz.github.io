@@ -33,7 +33,7 @@ y>
   <table style="width:100%">
   {% for special in site.data.specials %}
     <tr>
-    {% if today()  == special.Day %}
+    {% if (onload = "today()"  == special.Day %}
     <td><h2>{{special.Specials}}</h2></td>
     <td><h3>{{special.Descriptions}}</h3></td>
     <td><h3>{{special.Price}}</h3></td>
