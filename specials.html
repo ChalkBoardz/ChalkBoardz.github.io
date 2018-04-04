@@ -8,6 +8,24 @@
  <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
   
   {% assign curDate = site.time | date: '%A' %} 
+ <html>
+	<head>
+		<script>
+		function today()
+		{
+			var day = new Date();
+			var dayNames = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", 
+							"Thursday", "Friday", "Saturday");
+			var x = document.getElementById("myDay");
+			x.innerHTML = dayNames[day.getDay()];
+		}
+		</script>
+	</head>
+	<body onload="today()">
+		<p id="myDay"></p>
+	</body>
+</html> }
+   
    
    <h1> Daily Specials: {{curDate}}</h1>
   <center><h3 style = "color:White;"> Happy Hour: <br>
