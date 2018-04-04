@@ -29,7 +29,7 @@ defaults:
       path: "assets/img"
     values:
       image: true
-
+timezone: America/Denver
 # Build settings
 markdown: kramdown
 theme: minima
