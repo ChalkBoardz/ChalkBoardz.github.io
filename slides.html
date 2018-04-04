@@ -5,7 +5,7 @@
 <head>
 <style>
 /* Change body background-color to change fade out color. */
-/*body.siteshow { margin:0; padding:0; background-color:#000000; }
+body.siteshow { margin:0; padding:0; background-color:#000000; }
 #menu
 {
     font-family:Arial;
@@ -26,7 +26,7 @@
 #menu a:hover { text-decoration:none; }
 #title { font-size:11pt; font-weight:bold; letter-spacing:2; }
 #slides { font-size:9pt; line-height:16pt; }
-.button { width:60px; font-size:9pt; letter-spacing:1; }*/
+.button { width:60px; font-size:9pt; letter-spacing:1; }
 </style>
 <script type="text/javascript">
 var current_idx = 0;
@@ -45,7 +45,7 @@ slides[1] = new Array(5, "index", "https://Chalkboardz.github.io");
 slides[2] = new Array(5, "events", "https://Chalkboardz.github.io/events.html");
 slides[3] = new Array(5, "ontap", "https://Chalkboardz.github.io/ontap.html");
 slides[4] = new Array(5, "specials", "https://Chalkboardz.github.io/specials.html");
-/*function MenuInit()
+function MenuInit()
 {
     var html = "";
     for(idx=1; idx<slides.length; idx++) {
@@ -54,24 +54,24 @@ slides[4] = new Array(5, "specials", "https://Chalkboardz.github.io/specials.htm
     }
     document.getElementById("slides").innerHTML = html;
     menu.style.display = "block";
-}*/
-/*function MenuShow()
+}
+function MenuShow()
 {
     clearTimeout(menu_timer);
     /*opacity('menu', 0, 90, 500);*/
     opacity('menu', 90, 0, 500);
     menu_timer = setTimeout("MenuHide()", 3500);
-}*/
-/*function MenuHide()
+}
+function MenuHide()
 {
     opacity('menu', 90, 0, 500);
-}*/
-/*function Pause()
+}
+function Pause()
 {
     clearTimeout(show_timer);
     document.getElementById('play').style.display = "block";
     document.getElementById('pause').style.display = "none";
-}*/
+}
 function Navigate(slide_idx)
 {
     clearTimeout(show_timer);
