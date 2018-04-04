@@ -21,9 +21,7 @@
 		}
 		</script>
 	</head>
-	<body onload="today()">
-		<p id="myDay"></p>
-	</body>
+y>
 </html> }
    
    
@@ -35,7 +33,7 @@
   <table style="width:100%">
   {% for special in site.data.specials %}
     <tr>
-    {% if curDate  == special.Day %}
+    {% if today()  == special.Day %}
     <td><h2>{{special.Specials}}</h2></td>
     <td><h3>{{special.Descriptions}}</h3></td>
     <td><h3>{{special.Price}}</h3></td>
