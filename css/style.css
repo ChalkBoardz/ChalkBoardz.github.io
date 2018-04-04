@@ -67,6 +67,10 @@ td{
     padding: 5px 20px 0px 0px;
 }
 
+tr{
+  padding: 0;
+}
+
 p{
   font-family: courier:
   font-size: 12pt;
