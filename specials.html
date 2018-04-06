@@ -26,12 +26,20 @@
     </tr>
   {% endfor %}
   </table>  -->
+    <table style="width:100%">  
+     <tr>
+        <td><h2></h2></td>
+        <td><h2>Description</h2></td><td></td>
+        <td><h2>Extra Information</h2></td>
+        <td><h2>Price</h2></td>
+     </tr>
+	    
   <table style="width:100%">  
      {% for special in site.data.Specials %}
      <tr>
    	<td><h2>{{Specials.Day}}</h2></td>
 	<td><h2>{{Specials.Description}}</h2></td>
-	<td><h2>{{Specials.Extra Informaion}}</h2></td>
+	<td><h2>{{Specials.Extra}}</h2></td>
 	<td><h2>{{Specials.Price}}</h2></td>
      {% endfor %}
      </tr>
