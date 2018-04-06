@@ -11,14 +11,14 @@
 {% assign curDate = site.time | date: '%A' %}
 	 
   <!-- <center><h1>Specials: {{curDate}}</h1></center> -->
-  <center><h3 style = "color:White;"> Happy Hour222: <br>
+  <center><h3 style = "color:White;"> Happy Hour: <br>
   <h3 style = "color:White;">Monday - Thursday.<br> $1 off Mojitos, Margaritas, Long Islands and THE Dirty Palmer</h3></center>
   
   <!--
   <table style="width:100%">
   {% for special in site.data.specials %}
     <tr>
-    <!--{% if curDate  == special.Day %}
+   {% if curDate  == special.Day %}
     <td><h2>{{special.Specials}}</h2></td>
     <td><h3>{{special.Descriptions}}</h3></td>
     <td><h3>{{special.Price}}</h3></td>
