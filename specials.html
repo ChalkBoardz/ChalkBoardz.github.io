@@ -25,8 +25,16 @@
     {% endif %}
     </tr>
   {% endfor %}
+  </table>  
+  <table style="width:100%">  
+     {% for breads in site.data.Breads %}
+     <tr>
+   	<td><h2>{{Breads.Day}}</h2></td>
+	<td><h2>{{Breads.Special1}}</h2></td>
+	<td><h2>{{Breads.Special2}}</h2></td>
+	<td><h2>{{Breads.Special3}}</h2></td>
+     </tr>
   </table>
-  
   
   
 </body>
