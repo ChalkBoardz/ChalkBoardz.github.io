@@ -6,5 +6,21 @@
   <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet">
 <body>
  <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
+   
+   {% assign curDate = site.time | date: '%A' %}
+	 
+  <center><h1>Breads: {{curDate}}</h1></center>
+   
+   <table style="width:100%">  
+     {% for Breads in site.data.Breads %}
+     <tr>
+   	<td><h2>{{Breads.Day}}</h2></td>
+	<td><h2>{{Breads.Special1}}</h2></td>
+	<td><h2>{{Breads.Special2}}</h2></td>
+	<td><h2>{{Breads.Special3}}</h2></td>
+     {% endfor %}
+     </tr>
+  </table>
+   
  </body>
  </html>
