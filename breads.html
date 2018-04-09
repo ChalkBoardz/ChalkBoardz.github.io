@@ -4,22 +4,17 @@
 <!DOCTYPE html>
 <html>
   <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet">
-<style>
-	td{
-		line-height:50%;
-	}
-</style>
 <body>
  <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
    
    {% assign curDate = site.time | date: '%A' %}
 	 
-  <center><h1>Breads</h1></center>
+  <center><h1>Breads.</h1></center>
    
-   <table style="width:100%;">  
+   <table style="width:100%; line-height:50%">  
      {% for Breads in site.data.Breads %}
      <tr>
-   	<td><h2>{{Breads.Day}}</h2></td>
+   	<td><style="line-height:100%><h2>{{Breads.Day}}</h2></td>
 	<td><h2>{{Breads.Special1}}</h2></td>
 	<td><h2>{{Breads.Special2}}</h2></td>
 	<td><h2>{{Breads.Special3}}</h2></td>
