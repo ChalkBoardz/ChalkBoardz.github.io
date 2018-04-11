@@ -55,6 +55,7 @@ h2{
   color: #ced8e8; /* greyish */
   font-size: 30pt;
   padding: 0px;
+  margin:0;
 }
 
 h3{
@@ -63,6 +64,7 @@ h3{
   font-size: 30pt;
   font-weight: bold;
   padding: 0px;
+  margin:0;
 }
 
 table{
