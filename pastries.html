@@ -6,5 +6,22 @@
   <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet">
 <body>
  <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
+   
+   <table> 
+     <tr>
+        <td><h2>Day</h2></td>
+        <td><h2>Special</h2></td>
+        <td><h2>Also</h2></td>
+     </tr>
+	 
+     {% for Pastry in site.data.Pastry %}
+     <tr>     
+      <td height=100%><h2>{{Breads.Day}}</h2></td>     
+      <td height=100%><h2>{{Breads.Description}}</h2></td>
+      <td height=100%><h2>{{Breads.Extra}}</h2></td>
+     {% endfor %}
+     </tr>
+  </table>
+   
  </body>
  </html>
