@@ -26,15 +26,17 @@
     </tr>
   {% endfor %}
   </table>  -->
+	  
+    table style="width:100%">  
+     
+	    
     <table style="width:100%">  
-     <tr>
+      <tr>
         <td><h2>Day</h2></td>
         <td><h2>Description</h2></td>
         <td><h2>Extra Information</h2></td>
         <td><h2>Price</h2></td>
      </tr>
-	    
-  <table style="width:100%">  
      {% for Specials in site.data.Specials %}
      <tr>
    	<td><h3>{{Specials.Day}}</h3></td>
