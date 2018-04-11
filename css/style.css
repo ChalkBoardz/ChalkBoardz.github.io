@@ -65,6 +65,10 @@ h3{
   padding: 0px;
 }
 
+table{
+  border-collapse: collapse;
+}
+
 td{
     padding: 5px 20px 0px 0px;
 }
