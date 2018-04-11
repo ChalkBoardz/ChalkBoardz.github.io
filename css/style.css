@@ -52,7 +52,7 @@ h1{
 
 h2{
   font-family: 'EraserRegular';
-  color: #ced8e8; /* greyish */
+  color: #DC143C; /* crimson */
   font-size: 30pt;
   padding: 0px;
   margin:5px;
@@ -60,7 +60,7 @@ h2{
 
 h3{
   font-family: 'chalkboard_by_marta_van_eck';
-  color: #DC143C; /* crimson */
+  color: #ced8e8; /* greyish */
   font-size: 30pt;
   font-weight: bold;
   padding: 0px;
