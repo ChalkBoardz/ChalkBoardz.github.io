@@ -69,13 +69,7 @@ h3{
 
 table{
   border-collapse: collapse;
-  cellspacing:0px;
-  cellpadding:0px;
-  border:0px;
-}
-
-td{
-    padding: 0px 0px 0px 0px;
+  cellpadding:5px;
 }
 
 tr{
