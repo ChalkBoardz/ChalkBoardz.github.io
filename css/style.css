@@ -58,7 +58,7 @@ h2{
   color: #99001e; /* crimson */
   font-size: 30pt;
   padding: 0px;
-  margin:7px;
+  margin:7px 15px 7px 5px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 0 #99001e;
 }
 
@@ -68,7 +68,7 @@ h3{
   font-size: 30pt;
   font-weight: bold;
   padding: 0px;
-  margin:7px;
+  margin:7px 15px 7px 5px;
 }
 
 table{
