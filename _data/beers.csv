@@ -1,9 +1,9 @@
-Brand,Beer,Price
-Left Hand,Milk Stout,5
-Deschutes,Mirapont Pale Ale,4.75
-Snake River,Pakos,5.5
-Odell,IPA,5.5
-Upslope,Lager,4.75
-Avery,White Raskal,4.75
-Melvin,Hubert,6.5
-Anchor,Steam,5.5
+Name,Description,ABV,Price
+Left Hand Milk Stout,Roasted malt and coffee flavors build the foundation of this creamy sweet stout.,6,5
+Deschutes Mirror Pond Pale Ale,A single-hop pale ale with floral and citrus notes from 100% Cascade hops and a smooth caramel malt character.,5,4.75
+Snake River Pako's IPA,A pungent Simcoe/Columbus blend produces both bitterness and an explosive hop aroma.,6.8,5.5
+Odell IPA,,7,5.5
+Upslope Lager,,,4.75
+Avery White Raskal,,,4.75
+Melvin Hubert,,,6.5
+Anchor Steam,,,5.5
