@@ -102,7 +102,25 @@
   Special orders are availale with a 48 hour notice and pre-payment. We offer breads, pastry and whole pies.
   </h3>
 </div>
- 
+
+<div class="mySlides">
+	<table style="width:100%">  
+      <tr>
+        <td><h2>Day</h2></td>
+        <td><h2>Special</h2></td>
+        <td><h2>Description</h2></td>
+        <td><h2>Price</h2></td>
+     </tr>
+     {% for Specials in site.data.Specials %}
+     <tr>
+   	<td><h3>{{Specials.Day}}</h3></td>
+	<td><h3>{{Specials.Description}}</h3></td>
+	<td><h3>{{Specials.Extra}}</h3></td>
+	<td><h3>{{Specials.Price}}</h3></td>
+     {% endfor %}
+     </tr>
+  </table>	
+</div> 
 
 <script>
 var slideIndex = 0;
