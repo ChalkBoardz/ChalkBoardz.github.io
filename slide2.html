@@ -9,7 +9,7 @@
 <body>
 <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
 
-
+//1
   <div class="mySlides">
      <center><h1>Events</h1></center>
       <table style="width:100%">  
@@ -32,7 +32,7 @@
     {% endfor %}
     </table>
   </div>
-
+//2
   <div class="mySlides">
     <center><h1>On Tap Today</h1></center>
   <br><br>  
@@ -53,7 +53,7 @@
     {% endfor %}
     </table>
   </div>
-
+//3
 <div class="mySlides">
   <center><h1>Breads</h1></center>
   <br><br>
@@ -74,7 +74,7 @@
   <br><br><br>
   <center><h3 style="color: #42cbf4;">Look for additional Specialty items daily!</h3></center>
 </div>
-
+//4
 <div class="mySlides">
   <center><h1>Pastries</h1></center>
    <br><br>
@@ -102,7 +102,7 @@
   Special orders are availale with a 48 hour notice and pre-payment. We offer breads, pastry and whole pies.
   </h3>
 </div>
-
+//5
 <div class="mySlides">
 	<center><h1>Specials: {{curDate}}</h1></center>
   <center><h2> Happy Hour: </h2>
@@ -139,7 +139,12 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1} 
     x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 5000); 
+    if (slideIndex==1){setTimeout(carousel, 1000); }
+    else if (slideIndex==2){setTimeout(carousel, 2000); }
+    else if (slideIndex==3){setTimeout(carousel, 3000); }
+    else if (slideIndex==4){setTimeout(carousel, 4000); }
+    else if (slideIndex==5){setTimeout(carousel, 5000); }
+    else {setTimeout(carousel, 5000); }
 }
 </script>
 
