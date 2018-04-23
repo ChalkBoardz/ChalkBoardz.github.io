@@ -5,12 +5,13 @@
 <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet">
 <style>
 .mySlides {display:none;}
+html {overflow:hidden;}
 </style>
 <body>
 <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
 
 //1
-  <div class="mySlides" style="overflow:hidden;"  frameborder="no" scrolling="no" seamless="seamless">
+  <div class="mySlides">
      <center><h1>Events</h1></center>
       <table style="width:100%">  
       <tr>
@@ -32,6 +33,7 @@
     {% endfor %}
     </table>
   </div>
+	
 //2
   <div class="mySlides" style="overflow:hidden;">
     <center><h1>On Tap Today</h1></center>
@@ -53,8 +55,9 @@
     {% endfor %}
     </table>
   </div>
+
 //3
-<div class="mySlides" style="overflow:hidden;">
+<div class="mySlides">
   <center><h1>Breads</h1></center>
   <br><br>
   <center> 
@@ -74,8 +77,9 @@
   <br><br><br>
   <center><h3 style="color: #42cbf4;">Look for additional Specialty items daily!</h3></center>
 </div>
+
 //4
-<div class="mySlides" style="overflow:hidden;">
+<div class="mySlides">
   <center><h1>Pastries</h1></center>
    <br><br>
    <table  style="width:100%"> 
@@ -84,7 +88,6 @@
         <td><h2>Special Pastries</h2></td>
         <td><h2>Also Baked</h2></td>
      </tr>
-	 
      {% for Pastry in site.data.Pastry %}
      <tr>     
       <td><h3>{{Pastry.Day}}</h3></td>     
@@ -92,7 +95,6 @@
       <td><h3>{{Pastry.Extra}}</h3></td>
      </tr>
      {% endfor %}  
-     
   </table>
   <br><br><br>
   <center>
@@ -102,8 +104,9 @@
   Special orders are availale with a 48 hour notice and pre-payment. We offer breads, pastry and whole pies.
   </h3>
 </div>
+	
 //5
-<div class="mySlides" style="overflow:hidden;">
+<div class="mySlides">
 	<center><h1>Specials: {{curDate}}</h1></center>
   <center><h2> Happy Hour: </h2>
   <h3>Monday - Thursday.<br> $1 off Mojitos, Margaritas, Long Islands and THE Dirty Palmer</h3></center>
