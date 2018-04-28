@@ -60,7 +60,7 @@ h2{
   padding: 0px;
   margin:7px 15px 7px 5px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 0 #99001e;
-  font-weight:lighter;
+  font-weight:200;
   letter-spacing: 2px
 }
 
@@ -71,6 +71,7 @@ h3{
   font-weight: bold;
   padding: 0px;
   margin:7px 15px 7px 5px;
+  letter-spacing: 1px
 }
 
 table{
