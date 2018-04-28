@@ -47,7 +47,7 @@ html {overflow:hidden;}
   </tr>
     {% for beers in site.data.beers %}
     <tr>
-    <td><h2 style="color:#00bc0c;">{{beers.Name}}</td></h2>
+    <td><h2 style="color:#00bc0c; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 0 #00bc0c;">{{beers.Name}}</td></h2>
     <td><h3>{{beers.Description}}</td></h3>
     <td><h3>{{beers.ABV}}%</td></h3>
     <td><h3>${{beers.Price}}</td></h3>
