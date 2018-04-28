@@ -1,0 +1,87 @@
+---
+---
+
+@font-face {
+  font-family: 'EraserRegular';
+  src: url('/fonts/EraserRegular-webfont.eot'),
+  url('/fonts/EraserRegular-webfont.woff') format('woff'),
+  url('/fonts/EraserRegular-webfont.svg') format('svg'),
+  url('/fonts/EraserRegular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'chalk_line';
+  src: url('/fonts/chalk_line_outline-webfont.eot'),
+  url('/fonts/chalk_line_outline-webfont.woff') format('woff'),
+  url('/fonts/chalk_line_outline-webfont.woff2') format('woff2'),
+  url('/fonts/chalk_line_outline-webfont.svg') format('svg'),
+  url('/fonts/chalk_line_outline-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'chalkboard_by_marta_van_eck';
+  src: url('/fonts/chalkboard_by_marta_van_eck-webfont.eot'),
+  url('/fonts/chalkboard_by_marta_van_eck-webfont.woff') format('woff'),
+  url('/fonts/chalkboard_by_marta_van_eck-webfont.woff2') format('woff2'),
+  url('/fonts/chalkboard_by_marta_van_eck-webfont.svg') format('svg'),
+  url('/fonts/chalkboard_by_marta_van_eck-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'SqueakyChalkSound';
+  src: url('/fonts/squeakychalksound-webfont.eot'),
+  url('/fonts/squeakychalksound-webfont.woff') format('woff'),
+  url('/fonts/squeakychalksound-webfont.woff2') format('woff2'),
+  url('/fonts/squeakychalksound-webfont.svg') format('svg'),
+  url('/fonts/squeakychalksound-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  font-family: 'chalk_line';
+  color: #42cbf4;
+  font-size: 50pt;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 0 #42cbf4;
+  margin:20px;
+  letter-spacing: 5px
+}
+
+h2{
+  font-family: 'EraserRegular';
+  color: #99001e; /* crimson */
+  font-size: 30pt;
+  padding: 0px;
+  margin:7px 15px 7px 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 0 #99001e;
+  font-stretch: condensed;
+}
+
+h3{
+  font-family: 'chalkboard_by_marta_van_eck';
+  color: #FFFFFF; 
+  font-size: 30pt;
+  font-weight: bold;
+  padding: 0px;
+  margin:7px 15px 7px 5px;
+}
+
+table{
+}
+
+tr{
+  
+}
+
+p{
+  font-family: courier:
+  font-size: 12pt;
+}
+ 
+
