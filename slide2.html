@@ -10,7 +10,7 @@ html {overflow:hidden;}
 <body>
 <body background = "https://orig00.deviantart.net/3240/f/2015/140/2/c/chalkboard_by_lorelinde-d8u2l4g.jpg">
 
-<!-- 1 -->
+<!-- 1 Events -->
   <div class="mySlides">
      <center><h1>Events</h1></center>
       <table style="width:100%">  
@@ -34,7 +34,7 @@ html {overflow:hidden;}
     </table>
   </div>
 	
-<!-- 2 -->
+<!-- 2 On Tap-->
   <div class="mySlides" style="overflow:hidden;">
     <center><h1>On Tap Today</h1></center>
   <br><br>  
@@ -56,7 +56,7 @@ html {overflow:hidden;}
     </table>
   </div>
 
-<!-- 3 -->
+<!-- 3 Breads-->
 <div class="mySlides">
   <center><h1>Breads</h1></center>
   <br><br>
@@ -78,7 +78,7 @@ html {overflow:hidden;}
   <center><h3 style="color: #f6ff00;">Look for additional Specialty items daily!</h3></center>
 </div>
 
-<!-- 4 -->
+<!-- 4 Pastries-->
 <div class="mySlides">
   <center><h1>Pastries</h1></center>
    <br><br>
@@ -107,7 +107,7 @@ html {overflow:hidden;}
   </h3>
 </div>
 	
-<!-- 5 -->
+<!-- 5 Specials-->
 <div class="mySlides">
 	<center><h1>Specials</h1></center>
   <center><h2> Happy Hour: </h2>
@@ -135,12 +135,20 @@ html {overflow:hidden;}
 var slideIndex = 0;
 carousel();
 
+//Slideshow
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none"; 
     }
+	
+/* Timer for each slide
+1: Events
+2: On Tap
+3: Breads
+4: Pastries
+5: Specials */
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1} 
     x[slideIndex-1].style.display = "block"; 
